@@ -1,0 +1,16 @@
+#static variables for the new-bc-vm-from-template.sh shell script
+#don't used quotes in this file
+
+api_key=enter-your-api
+username=enter-your-username
+password=enter-your-password
+#ssh_key=N/A #here for future expansion
+
+
+
+######These variables are not required if only using the iso_generator######
+#Specify the directory where your ISO file should be stored on Proxmox
+#outputdir=/mnt/local-lvm/template/iso #proxmox iso directory #EXAMPLE
+#Specify the template ID of your Branch Connector template
+#bc_template_id=vm_id_of_your_bc_vm_templates
+######These variables are not required if only using the iso_generator######
