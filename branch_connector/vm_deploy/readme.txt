@@ -10,15 +10,16 @@ This script allows performs the following functions
 1 - it reads in your branch connector api key, admin username, password from the bc_variables.txt file
 2 - it reads in your proxmox ISO directory and branch connector template ID from the bc_variables.txt file
 3 - it finds the next available VM ID in the proxmox cluster
-4 - then clones your branch connector vm template to that next available VM ID
-5 - it asks the user if they are or are not deploying an integrated app connector in the branch connector VM
-6 - it gathers the cc_url for the config template from the user input
-7 - it gathers the branch connector IP infofrmation and optionally the integrated app connector ip information and provisioning key, from the user input
-8 - it creates the user-data file in YAML format
-9 - it utilizes genisoimage to create an ISO file from user-data file
-10 - it mounts the ISO to the cloned branch connector VM as a CDROM
-11 - it cleans up the user-data YAML file
-12 - it boots the new  cloned branch connector VM
+4 - it then asks the user for the name they want to assign to the new VM
+5 - then clones your branch connector vm template to that next available VM ID
+6 - it asks the user if they are or are not deploying an integrated app connector in the branch connector VM
+7 - it gathers the cc_url for the config template from the user input
+8 - it gathers the branch connector IP infofrmation and optionally the integrated app connector ip information and provisioning key, from the user input
+9 - it creates the user-data file in YAML format
+10 - it utilizes genisoimage to create an ISO file from user-data file
+11 - it mounts the ISO to the cloned branch connector VM as a CDROM
+12 - it cleans up the user-data YAML file
+13 - it boots the new  cloned branch connector VM
 :::::::::::::Purpose:::::::::::::
 
 
