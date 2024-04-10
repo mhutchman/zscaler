@@ -40,10 +40,10 @@ cores: 4
 memory: 8192
 meta: creation-qemu=7.1.0,ctime=1691002627
 name: bc-template
-net0: virtio=3E:3C:FE:8A:B1:21,bridge=vmbr1,tag=213
-net1: virtio=DE:52:08:59:B8:93,bridge=vmbr1,tag=213
-net2: virtio=F6:74:3B:75:62:05,bridge=vmbr1,tag=213
-net3: virtio=AA:B3:B1:DC:0E:BB,bridge=vmbr1,tag=213
+net0: virtio=3E:3C:FE:8A:B1:21,bridge=vmbr0
+net1: virtio=DE:52:08:59:B8:93,bridge=vmbr0
+net2: virtio=F6:74:3B:75:62:05,bridge=vmbr0
+net3: virtio=AA:B3:B1:DC:0E:BB,bridge=vmbr0
 numa: 0
 onboot: 1
 ostype: other
