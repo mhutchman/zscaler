@@ -13,7 +13,7 @@ This script allows performs the following functions
 4 - then clones your branch connector vm template to that next available VM ID
 5 - it asks the user if they are or are not deploying an integrated app connector in the branch connector VM
 6 - it gathers the cc_url for the config template from the user input
-7 - it gathers the branch connector, and optionally the integrated app connector, ip information from the user input
+7 - it gathers the branch connector IP infofrmation and optionally the integrated app connector ip information and provisioning key, from the user input
 8 - it creates the user-data file in YAML format
 9 - it utilizes genisoimage to create an ISO file from user-data file
 10 - it mounts the ISO to the cloned branch connector VM as a CDROM
