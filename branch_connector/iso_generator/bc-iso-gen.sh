@@ -280,4 +280,4 @@ genisoimage -o $output_iso -r $output_yaml
 echo "ISO built - $output_iso"
 
 #remove the user-data yaml file
-#rm $output_yaml
+rm $output_yaml
