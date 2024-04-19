@@ -231,7 +231,7 @@ output_iso="./userdata_${template_name}.iso"
 if [[ "$is_appc" =~ ^(yes|true)$ ]]; then
     cat > "$output_yaml" <<EOF #cloud-config
 ZSCALER:
-  cc_url:" $cc_url"
+  cc_url: "$cc_url"
 DEV:
   api_key: "$api_key"
   username: "$username"
