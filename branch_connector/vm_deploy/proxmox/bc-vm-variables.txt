@@ -7,7 +7,7 @@ password=enter-your-password
 #ssh_key=N/A #here for future expansion
 
 #Specify the directory where your ISO file should be stored on Proxmox
-#outputdir=/mnt/local-lvm/template/iso #proxmox iso directory #EXAMPLE
+outputdir=/mnt/local-lvm/template/iso #proxmox iso directory #EXAMPLE
 
 #Specify the template ID of your Branch Connector template
 bc_template_id=vm_id_of_your_bc_vm_templates
