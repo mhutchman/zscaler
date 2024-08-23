@@ -34,7 +34,7 @@ the username and password for your admin account
 once complete, cd into the directory where you placed the bc_variabes.txt and bc-iso-gen.sh
 grant the bc-iso-gen.sh execute permissions on proxmox
 
-root@pve:~# chmod +x bc-iso-gen.sh.sh
+root@pve:~# chmod +x bc-iso-gen.sh
 
 and execute the script via
 ./bc-iso-gen.sh
